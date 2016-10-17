@@ -1,0 +1,110 @@
+body {
+  font-family: 'Biryani', sans-serif;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  font-weight: 400; }
+  body-content {
+    padding-left: 15px;
+    padding-right: 15px; }
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+  white-space: normal; }
+
+/* Set width on the form input elements since they're 100% wide by default */
+/*input*/
+select,
+textarea {
+  max-width: 280px; }
+
+li, li a, .about-me a {
+  list-style: none;
+  text-decoration: none; }
+
+a, h3, p, h5 {
+  color: white; }
+
+a:hover {
+  opacity: .5; }
+
+.main-container {
+  height: 100vh;
+  background: linear-gradient(#5714cc, #2395ff); }
+
+.navigation ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  align-items: center; }
+  .navigation ul li {
+    margin: 8px; }
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 8rem;
+  margin-right: 8rem; }
+
+#first-name {
+  margin-bottom: 0;
+  color: #eeccff; }
+
+h1 b {
+  color: white; }
+
+#last-name {
+  margin-top: -80px;
+  padding-left: 100px;
+  color: #ccd0ff; }
+
+#first-name, #last-name {
+  font-size: 4rem;
+  font-weight: 100;
+  align-self: center; }
+
+.content-div {
+  justify-content: space-around; }
+
+.about-me {
+  padding-bottom: 6rem; }
+  .about-me h3 {
+    border-bottom: solid 2px #073f99;
+    padding-bottom: 1.5rem; }
+  .about-me a {
+    background-color: #073f99;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #fff; }
+
+.image {
+  width: 50%; }
+  .image img {
+    width: 100%; }
+
+.social-icons {
+  padding-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .social-icons ul {
+    padding-left: 0; }
+  .social-icons ul li {
+    margin: 8px; }
+  .social-icons h5 {
+    margin-bottom: 0; }
+
+.content-div, .social-icons ul {
+  display: flex;
+  flex-direction: row; }
+
+.about-me, .social-icons {
+  align-self: flex-end;
+  width: 25%; }
+
+/*# sourceMappingURL=application.css.map */

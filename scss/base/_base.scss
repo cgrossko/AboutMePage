@@ -1,0 +1,45 @@
+// <--------- Base Styles ------------>
+
+body {
+    font-family: 'Biryani', sans-serif;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    &-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+/*input*/
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+li, li a, .about-me a {
+    list-style: none;
+    text-decoration: none;
+}
+
+a, h3, p, h5 {
+    color: white;
+}
+
+a:hover {
+    opacity: .5;
+}
+
+.main-container {
+    height: 100vh;
+    background: linear-gradient($top-background-color,$bottom-background-color);
+}

@@ -1,0 +1,51 @@
+// about me div, image, and connent info styles
+
+.content-div {
+    @extend %flexrules;
+    justify-content: space-around;
+}
+
+.about-me, .social-icons {
+    @extend %flexend;
+}
+
+.about-me {
+    padding-bottom: 6rem;
+    & h3 {
+        border-bottom: solid 2px $secondary-color;
+        padding-bottom: 1.5rem;
+    }
+    & a {
+        background-color: $secondary-color;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        color: $white;
+    }
+}
+
+.image {
+    width: 50%;
+    & img {
+        width: 100%;
+    }
+}
+
+.social-icons {
+    padding-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & ul {
+        @extend %flexrules;
+        padding-left: 0;
+    }
+    & ul li {
+        margin: 8px;
+    }
+    & h5 {
+        margin-bottom: 0;
+    }
+}
+

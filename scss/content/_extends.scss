@@ -1,0 +1,13 @@
+// display and direction for content-div and social-icons ul
+
+%flexrules {
+	display: flex;
+    flex-direction: row;
+}
+
+// flex-end and width styles to about-me and social-icon divs
+
+%flexend {
+	align-self: flex-end;
+	width: 25%;
+}
